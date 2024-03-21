@@ -142,8 +142,8 @@ public class Login extends JFrame {
         lblOlvide.setFont(new Font("SansSerif", Font.PLAIN, 13));
         lblOlvide.setHorizontalAlignment(SwingConstants.CENTER);
         lblOlvide.setBounds(25, 345, 296, 16);
+        lblOlvide.setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));
         panelLogin.add(lblOlvide);
-
 
 
     }
